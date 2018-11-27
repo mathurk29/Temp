@@ -46,27 +46,27 @@
 			
 				{
 					"lang": "en",
-					"name": "Online ROM Flash Component for Windows x64 - HPE ProLiant DL380 Gen10",
+					"desc": "Online ROM Flash Component for Windows x64 - HPE ProLiant DL380 Gen10",
 					"alt_name":""
 				},
 				{
 					"lang": "cn",
-					"name": "",
+					"desc": "",
 					"alt_name":""
 				},
 				{
 					"lang": "ja",
-					"name": "",
+					"desc": "",
 					"alt_name":""
 				},
 				{
 					"lang": "ko",
-					"name": "Windows x64용 온라인 ROM 플래시 구성 요소 - HPE ProLiant DL380 Gen10 (U30) 서버",
+					"desc": "Windows x64용 온라인 ROM 플래시 구성 요소 - HPE ProLiant DL380 Gen10 (U30) 서버",
 					"alt_name":""
 				},
 				{
 					"lang": "tw",
-					"name": "適用於 Windows x64 的線上 ROM 更新元件 - HPE ProLiant DL380 Gen10 (U30) 伺服器",
+					"desc": "適用於 Windows x64 的線上 ROM 更新元件 - HPE ProLiant DL380 Gen10 (U30) 伺服器",
 					"alt_name":""
 				}
 			
@@ -378,56 +378,6 @@
 				"size_kb": 11000
 			}
 		},
-		"installation": {
-			"install": {
-				"install_caps": {
-					"silent": "yes",
-					"needuseracct": "no"
-				},
-				"command": "cpqsetup.exe",
-				"command_params": "",
-				"reboot_required": {
-					"value": "yes"
-				},
-				"reboot_details": {
-				   "description":[
-						{
-							"lang": "en",
-							"reboot_details": "Reboot is required after installation for updates to take effect and hardware stability to be maintained."
-						},
-						{
-							"lang": "cn",
-							"reboot_details": "安装之后必须重启才能使更新生效并保持硬件稳定性。"
-						},
-						{
-							"lang": "ja",
-							"reboot_details": "アップデートの効果とハードウェアの安定を得るために、インストール後の再起動は必要です。"
-						},
-						{
-							"lang": "ko",
-							"reboot_details": "업데이트가 적용되고 하드웨어 안정성이 유지되려면 설치 후 재부팅해야 합니다."
-						},
-						{
-							"lang": "tw",
-							"reboot_details": "安裝後必須重新啟動，更新才會生效，並維持硬體穩定。"
-						}
-					
-					],
-					"value": "Required"
-				},
-				
-				"per_device_install_time_seconds": 0
-			},
-			"uninstall": {
-				"uninstall_caps": {
-					"silent": "no"
-				},
-				"command": "",
-				"command_params": "",
-				"reboot_required": {
-					"value": "no" 
-				}
-			}
-		},
+		
 		"version": "2.0.1.0" 
 	}
